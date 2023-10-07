@@ -19,7 +19,7 @@
 
 
       /* Keep the background at the top */
-      min-height: 100vh;
+      min-height: 90vh;
       /* Ensure the background covers the entire viewport height */
 }
 
