@@ -1,0 +1,26 @@
+/* Navbar.css
+.navbar-container {
+      background-image: url('https://i.ibb.co/j5b8zH4/anothre-editedunsplash.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+   
+      min-height: 100vh;
+  
+} */
+
+
+/* Navbar.css */
+.navbar-container {
+      background-image: url('https://i.ibb.co/pv4X4g5/kuddus.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+
+      /* Keep the background at the top */
+      min-height: 100vh;
+      /* Ensure the background covers the entire viewport height */
+}
+
+/* Additional styles for your Navbar elements (customize as needed) */
