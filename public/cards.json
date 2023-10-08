@@ -1,0 +1,68 @@
+[
+      {
+            "id": 1,
+            "name": "Mindfulness Meditation Retreat",
+            "image": "yoga.jpg",
+            "price": "$300",
+            "short_description": "Reconnect with your inner self in a serene yoga retreat.",
+            "button": {
+                  "text": "Book Now",
+                  "link": "/book/yoga-retreat"
+            }
+      },
+      {
+            "id": 2,
+            "name": "Meditation Workshop",
+            "image": "meditation.jpg",
+            "price": "$50",
+            "short_description": "Learn the art of mindfulness through guided meditation.",
+            "button": {
+                  "text": "Book Now",
+                  "link": "/book/meditation-workshop"
+            }
+      },
+      {
+            "id": 3,
+            "name": "Healthy Cooking Class",
+            "image": "cooking.jpg",
+            "price": "$75",
+            "short_description": "Discover the secrets of preparing nutritious meals.",
+            "button": {
+                  "text": "Book Now",
+                  "link": "/book/cooking-class"
+            }
+      },
+      {
+            "id": 4,
+            "name": "Fitness Bootcamp",
+            "image": "fitness.jpg",
+            "price": "$200",
+            "short_description": "Get in shape with high-intensity fitness training.",
+            "button": {
+                  "text": "Book Now",
+                  "link": "/book/fitness-bootcamp"
+            }
+      },
+      {
+            "id": 5,
+            "name": "Spa and Relaxation Day",
+            "image": "spa.jpg",
+            "price": "$150",
+            "short_description": "Indulge in a day of pampering and relaxation at our spa.",
+            "button": {
+                  "text": "Book Now",
+                  "link": "/book/spa-day"
+            }
+      },
+      {
+            "id": 6,
+            "name": "Nature Retreat",
+            "image": "nature.jpg",
+            "price": "$250",
+            "short_description": "Connect with nature and recharge your energy in the great outdoors.",
+            "button": {
+                  "text": "Book Now",
+                  "link": "/book/nature-retreat"
+            }
+      }
+]

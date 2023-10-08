@@ -48,3 +48,21 @@
       background-repeat: no-repeat;
       background-position: center center;
 }
+
+.navbar-container.login {
+      background-image: url('https://i.ibb.co/V23XbT7/This-will-be-login-K.jpg');
+      min-height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+}
+
+.navbar-container.signUp {
+      background-image: url('https://i.ibb.co/V23XbT7/This-will-be-login-K.jpg');
+      min-height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+}

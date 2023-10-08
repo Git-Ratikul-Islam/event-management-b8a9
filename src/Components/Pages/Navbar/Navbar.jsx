@@ -8,6 +8,7 @@ const Navbar = () => {
 
       const location = useLocation();
 
+
       // Defining a function to get the class name based on the current route
       const getBackgroundClass = () => {
             if (location.pathname === "/events") {
@@ -16,9 +17,18 @@ const Navbar = () => {
                   return "service";
             } else if (location.pathname === "/contactUs") {
                   return "contactUs";
-            } else {
-                  return ""; // Default background class
+            } else if (location.pathname === "/login") {
+                  return "login";
+            } else if (location.pathname === "/signUp") {
+                  return "login";
+            } else if (location.pathname === "/*") {
+                  return "login";
             }
+            else {
+                  return ""; // Default background class
+
+            }
+
       };
 
       const backgroundClass = getBackgroundClass();
@@ -28,8 +38,9 @@ const Navbar = () => {
 
             <li className="text-[16px] font-semibold"><NavLink to="/" >Home</NavLink></li>
             <li className="text-[16px] font-semibold"><NavLink to="/events" >Events</NavLink></li >
-            <li className="text-[16px] font-semibold"><NavLink to="/service" >Service</NavLink></li >
+            <li className="text-[16px] font-semibold"><NavLink to="/service" >Services</NavLink></li >
             <li className="text-[16px] font-semibold"><NavLink to="/contactUs">Contact us</NavLink></li >
+            {/* <li className="text-[16px] font-semibold"><NavLink to="/contactUs"></NavLink></li > */}
 
 
 
@@ -41,7 +52,7 @@ const Navbar = () => {
 
       </>;
 
-      const shouldShowContent = !["/events", "/service", "/contactUs"].includes(
+      const shouldShowContent = !["/events", "/service", "/contactUs", "/login", "/signUp", "/*"].includes(
             location.pathname
       );
 
@@ -75,13 +86,13 @@ const Navbar = () => {
                               <div className="navbar-end ">
                                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-4">
                                           <div className="w-10 rounded-full">
-                                                <img src="https://i.ibb.co/j5b8zH4/anothre-editedunsplash.jpg" />
+                                                <img src="https://i.ibb.co/J7wT95S/logan-weaver-lgnwvr-XCkc8-s7-FA-unsplash.jpg" />
 
 
                                           </div>
 
                                     </label>
-                                    <button className="btn btn-sm bg-[#f15b43] border-none text-white"><Link to="/login">Log out</Link></button>
+                                    <NavLink to="/login"> <button className="btn btn-sm bg-[#f15b43] border-none text-white">Log out</button></NavLink>
                               </div>
                         </div >
                   </div>
@@ -97,9 +108,9 @@ const Navbar = () => {
                                           Are you ready to take charge of your well-being and <br /> embark on
                                           a path to a healthier, happier you?{" "}
                                     </p>
-                                    <button className="btn bg-[#f15b43] border-none text-white px-12 rounded-none hover:bg-[#7ed957]">
+                                    <Link to="/login"><button className="btn bg-[#f15b43] border-none text-white px-12 rounded-none hover:bg-[#7ed957] mt-10">
                                           Check Events
-                                    </button>
+                                    </button></Link>
                               </div>
                         </div>
                   )}

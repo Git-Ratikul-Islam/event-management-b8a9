@@ -13,12 +13,15 @@ import Service from './Components/Pages/Service/Service';
 import ContactUs from './Components/Pages/Contact/ContactUs';
 import Login from './Components/Pages/Users/Login';
 import SignUp from './Components/Pages/Users/SignUp';
+import ErrorPage from './Components/Pages/ErrorPage/ErrorPage';
+import ErrorElement from './Components/Pages/ErrorPage/ErrorElement';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorElement></ErrorElement>,
     children: [
       {
         path: '/',
@@ -44,15 +47,15 @@ const router = createBrowserRouter([
         path: '/signUp',
         element: <SignUp></SignUp>
       },
-      {
-        path: '*',
-        element: <h1 className='text-6xl flex justify-center items-center text-center'>404 error</h1>
-      }
-
 
     ]
   },
+  {
+    path: '/*',
+    element: <ErrorPage></ErrorPage>
+  }
 ]);
+
 
 
 
