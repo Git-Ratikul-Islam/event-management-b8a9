@@ -4,14 +4,14 @@ const Footer = () => {
       return (
             <div>
                   {/* <!-- ====== Footer Section Start --> */}
-                  <footer className="relative z-10 bg-[] pt-20 pb-10 lg:pt-[120px] lg:pb-20 overflow-hidden bottom-0">
+                  <footer className="relative z-10 bg-[#263b5c] pt-20 pb-10 lg:pt-[120px] lg:pb-20 overflow-hidden bottom-0 text-white ">
                         <div className="container mx-auto">
                               <div className="-mx-4 flex flex-wrap">
                                     <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
                                           <div className="mb-10 w-full">
                                                 <a href="javascript:void(0)" className="mb-6 inline-block max-w-[160px]">
                                                       <img
-                                                            src="https://i.ibb.co/DzPK6ky/footer-2.png"
+                                                            src="https://i.ibb.co/wM6VFgt/Healthy-Life-Logodsalkgfalsdkgkj.png"
                                                             alt="logo"
                                                             className="s"
                                                       />
@@ -21,7 +21,7 @@ const Footer = () => {
                                                       totam rem aperiam.
                                                 </p>
                                                 <p className="text-dark flex items-center text-sm font-medium">
-                                                      <span className="text-primary mr-3">
+                                                      <span className="text-[#65c9bb] mr-3">
                                                             <svg
                                                                   width="19"
                                                                   height="21"
@@ -50,7 +50,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   SaaS Development
                                                             </a>
@@ -58,7 +58,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Our Products
                                                             </a>
@@ -66,7 +66,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   User Flow
                                                             </a>
@@ -74,7 +74,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   User Strategy
                                                             </a>
@@ -89,7 +89,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   About TailGrids
                                                             </a>
@@ -97,7 +97,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Contact & Support
                                                             </a>
@@ -105,7 +105,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Success History
                                                             </a>
@@ -113,7 +113,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Setting & Privacy
                                                             </a>
@@ -128,7 +128,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Premium Support
                                                             </a>
@@ -136,7 +136,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Our Services
                                                             </a>
@@ -144,7 +144,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Know Our Team
                                                             </a>
@@ -152,7 +152,7 @@ const Footer = () => {
                                                       <li>
                                                             <a
                                                                   href="javascript:void(0)"
-                                                                  className="text-body-color hover:text-primary mb-2 inline-block text-base leading-loose"
+                                                                  className="text-body-color hover:text-[#65c9bb] mb-2 inline-block text-base leading-loose"
                                                             >
                                                                   Download App
                                                             </a>

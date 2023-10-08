@@ -108,11 +108,16 @@ const Navbar = () => {
                                           Are you ready to take charge of your well-being and <br /> embark on
                                           a path to a healthier, happier you?{" "}
                                     </p>
-                                    <Link to="/login"><button className="btn bg-[#f15b43] border-none text-white px-12 rounded-none hover:bg-[#7ed957] mt-10">
-                                          Check Events
-                                    </button></Link>
-                              </div>
-                        </div>
+                                    <Link to="/login">
+                                          <button className="btn bg-[#65c9bb] border-[#65c9bb] text-white px-12 rounded-none hover:bg-[#65c9bc00] mt-10">
+
+                                                Check Events
+                                          </button>
+                                    </Link>
+
+                              </div >
+
+                        </div >
                   )}
 
 

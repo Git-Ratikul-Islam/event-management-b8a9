@@ -2,67 +2,55 @@
       {
             "id": 1,
             "name": "Mindfulness Meditation Retreat",
-            "image": "yoga.jpg",
+            "image": "https://i.ibb.co/VCCkj57/kike-vega-F2qh3yjz6-Jk-unsplash.jpg",
             "price": "$300",
-            "short_description": "Reconnect with your inner self in a serene yoga retreat.",
-            "button": {
-                  "text": "Book Now",
-                  "link": "/book/yoga-retreat"
-            }
+            "discount": "$40",
+            "short_description": "Embark on a transformative journey to inner peace and self-discovery amidst the serene beauty of a yoga retreat.",
+            "text": "Book Now"
       },
       {
             "id": 2,
             "name": "Meditation Workshop",
-            "image": "meditation.jpg",
+            "image": "https://i.ibb.co/Fs06qqv/Meditation-Workshop1.jpg",
             "price": "$50",
-            "short_description": "Learn the art of mindfulness through guided meditation.",
-            "button": {
-                  "text": "Book Now",
-                  "link": "/book/meditation-workshop"
-            }
+            "discount": "$30",
+            "short_description": "Join us for a profound meditation workshop where you'll learn the art of mindfulness and find tranquility in your daily life.",
+            "text": "Book Now"
       },
       {
             "id": 3,
             "name": "Healthy Cooking Class",
-            "image": "cooking.jpg",
+            "image": "https://i.ibb.co/zQCDCB9/Healthy-Cooking-Class.jpg",
             "price": "$75",
-            "short_description": "Discover the secrets of preparing nutritious meals.",
-            "button": {
-                  "text": "Book Now",
-                  "link": "/book/cooking-class"
-            }
+            "discount": "$11",
+            "short_description": "Uncover the culinary secrets behind crafting delicious and nutritious meals in our engaging and informative cooking classes.",
+            "text": "Book Now"
       },
       {
             "id": 4,
             "name": "Fitness Bootcamp",
-            "image": "fitness.jpg",
+            "image": "https://i.ibb.co/58TfZQq/Fitness-Bootcamp.jpg",
             "price": "$200",
-            "short_description": "Get in shape with high-intensity fitness training.",
-            "button": {
-                  "text": "Book Now",
-                  "link": "/book/fitness-bootcamp"
-            }
+            "discount": "$60",
+            "short_description": "Transform your fitness journey with our intense fitness bootcamp, designed to sculpt your body and boost your endurance.",
+            "text": "Book Now"
       },
       {
             "id": 5,
             "name": "Spa and Relaxation Day",
-            "image": "spa.jpg",
+            "image": "https://i.ibb.co/JjSdfSQ/spa1.jpg",
             "price": "$150",
-            "short_description": "Indulge in a day of pampering and relaxation at our spa.",
-            "button": {
-                  "text": "Book Now",
-                  "link": "/book/spa-day"
-            }
+            "discount": "$37",
+            "short_description": "Rejuvenate your body and mind with a day of pure indulgence at our spa, where relaxation and self-care take center stage.",
+            "text": "Book Now"
       },
       {
             "id": 6,
             "name": "Nature Retreat",
-            "image": "nature.jpg",
+            "image": "https://i.ibb.co/Y8Wt7y4/Nature-Retreat.jpg",
             "price": "$250",
-            "short_description": "Connect with nature and recharge your energy in the great outdoors.",
-            "button": {
-                  "text": "Book Now",
-                  "link": "/book/nature-retreat"
-            }
+            "discount": "$15",
+            "short_description": "Reconnect with the natural world and revitalize your spirit during an unforgettable nature retreat that offers serenity and adventure.",
+            "text": "Book Now"
       }
 ]
