@@ -3,7 +3,8 @@
 const SingleCard = ({ cards }) => {
       const { name, image, price, short_description, text, discount } = cards;
       return (
-            <div className="px-4 py-8">
+            <div className="px-4 py-8" data-aos="fade-up"
+                  data-aos-duration="1500">
                   <div className="bg-[#f4f2f1] mb-6 tracking-wide h-[600px]" >
                         <div className="md:flex-shrink-0 ">
                               <img src={image} alt="mountains" className="w-full h-[344px] object-cover"></img>

@@ -97,7 +97,7 @@ const Navbar = () => {
                         </div >
                   </div>
                   {shouldShowContent && (
-                        <div className="absolute">
+                        <div className="absolute ">
                               {/* Your content block */}
                               <div className="relative md:bottom-[530px] bottom-[400px] md:left-96 left-10 text-white md:space-y-10 space-y-7">
                                     <h1 className="md:text-6xl text-4xl font-bold ">
