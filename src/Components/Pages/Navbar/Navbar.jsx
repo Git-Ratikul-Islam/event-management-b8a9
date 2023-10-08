@@ -1,16 +1,35 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import './Navbar.css';
 
 
 
 const Navbar = () => {
 
+
+      const location = useLocation();
+
+      // Defining a function to get the class name based on the current route
+      const getBackgroundClass = () => {
+            if (location.pathname === "/events") {
+                  return "events";
+            } else if (location.pathname === "/service") {
+                  return "service";
+            } else if (location.pathname === "/contactUs") {
+                  return "contactUs";
+            } else {
+                  return ""; // Default background class
+            }
+      };
+
+      const backgroundClass = getBackgroundClass();
+
+
       const links = <>
 
-            <li className="text-[16px]"><NavLink to="/" >Home</NavLink></li>
-            <li className="text-[16px]"><NavLink to="/events" >Events</NavLink></li >
-            <li className="text-[16px]"><NavLink to="/service" >Service</NavLink></li >
-            <li className="text-[16px]"><NavLink to="/contactUs">Contact Us</NavLink></li >
+            <li className="text-[16px] font-semibold"><NavLink to="/" >Home</NavLink></li>
+            <li className="text-[16px] font-semibold"><NavLink to="/events" >Events</NavLink></li >
+            <li className="text-[16px] font-semibold"><NavLink to="/service" >Service</NavLink></li >
+            <li className="text-[16px] font-semibold"><NavLink to="/contactUs">Contact us</NavLink></li >
 
 
 
@@ -22,7 +41,9 @@ const Navbar = () => {
 
       </>;
 
-
+      const shouldShowContent = !["/events", "/service", "/contactUs"].includes(
+            location.pathname
+      );
 
 
 
@@ -31,7 +52,7 @@ const Navbar = () => {
 
 
 
-                  <div className="navbar-container">
+                  <div className={`navbar-container ${backgroundClass}`}>
                         <div className="navbar  md:w-5/6 md:mx-auto ">
                               <div className="navbar-start">
                                     <div className="dropdown">
@@ -64,14 +85,24 @@ const Navbar = () => {
                               </div>
                         </div >
                   </div>
-                  <div className="absolute">
-                        <div className="relative md:bottom-[530px] bottom-[400px] md:left-96 left-10 text-white md:space-y-10 space-y-7">
-                              <h1 className="md:text-6xl text-4xl font-bold ">Celebrate Life<br />
-                                    Explore Health also <br /> Wellness Events Now!</h1>
-                              <p className="md:text-xl text-white ">Are you ready to take charge of your well-being and <br /> embark on a path to a healthier, happier you? </p>
-                              <button className="btn bg-[#f15b43] border-none text-white px-12 rounded-none hover:bg-[#7ed957]">Check Events</button>
+                  {shouldShowContent && (
+                        <div className="absolute">
+                              {/* Your content block */}
+                              <div className="relative md:bottom-[530px] bottom-[400px] md:left-96 left-10 text-white md:space-y-10 space-y-7">
+                                    <h1 className="md:text-6xl text-4xl font-bold ">
+                                          Celebrate Life<br />
+                                          Explore Health also <br /> Wellness Events Now!
+                                    </h1>
+                                    <p className="md:text-xl text-white ">
+                                          Are you ready to take charge of your well-being and <br /> embark on
+                                          a path to a healthier, happier you?{" "}
+                                    </p>
+                                    <button className="btn bg-[#f15b43] border-none text-white px-12 rounded-none hover:bg-[#7ed957]">
+                                          Check Events
+                                    </button>
+                              </div>
                         </div>
-                  </div>
+                  )}
 
 
 

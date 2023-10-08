@@ -11,16 +11,40 @@
 
 
 /* Navbar.css */
+.navbar-container {}
+
+/* Additional styles for your Navbar elements (customize as needed) */
 .navbar-container {
       background-image: url('https://i.ibb.co/pv4X4g5/kuddus.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-
-
-      /* Keep the background at the top */
-      min-height: 90vh;
-      /* Ensure the background covers the entire viewport height */
+      min-height: 100vh;
 }
 
-/* Additional styles for your Navbar elements (customize as needed) */
+/* Background image for the "events" route */
+.navbar-container.events {
+      background-image: url('https://i.ibb.co/2jxpMwz/Events-Background.jpg');
+      min-height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+}
+
+/* Background image for the "service" route */
+.navbar-container.service {
+      background-image: url('https://i.ibb.co/TTFMkq1/service-related-backgroundjpg.jpg');
+      min-height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+}
+
+/* Background image for the "contactUs" route */
+.navbar-container.contactUs {
+      background-image: url('https://i.ibb.co/vckGXpL/contact-Us.jpg');
+      min-height: 50vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+}
