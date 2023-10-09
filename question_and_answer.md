@@ -56,3 +56,9 @@ nums.forEach((num) => {
 console.log(count);
 
 Answer: C:3
+
+Explanation: num is 0 (falsy) - count remains 0
+num is 1 (truthy) - count becomes 1
+num is 2 (truthy) - count becomes 2
+num is 3 (truthy) - count becomes 3
+So, the final value of count will be 3
