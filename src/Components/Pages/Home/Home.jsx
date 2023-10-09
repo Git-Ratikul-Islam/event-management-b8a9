@@ -5,7 +5,7 @@ import RecentEvent from "./RecentEvent/RecentEvent";
 
 const Home = () => {
       const cards = useLoaderData();
-      // console.log(cards);
+
 
       return (
             <>
