@@ -1,7 +1,33 @@
 
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Provider/AuthProvider';
+
 
 const SignUp = () => {
+      const { createUser } = useContext(AuthContext);
+      console.log(createUser);
+
+
+
+      const handleRegister = e => {
+            e.preventDefault();
+            const name = e.target.name.value;
+            const email = e.target.email.value;
+            const password = e.target.password.value;
+            console.log(name, email, password);
+
+            // create user in firebase
+            createUser(email, password)
+                  .then(result => {
+                        console.log(result.user);
+                  })
+                  .catch(error => console.error(error));
+      };
+
+
+
+
       return (
             <div>
                   <section className="bg-[#ffffff] ">
@@ -12,18 +38,15 @@ const SignUp = () => {
                                           <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                                                 Create and account
                                           </h1>
-                                          <form className="space-y-4 md:space-y-6" action="#">
+                                          <form onSubmit={handleRegister} className="space-y-4 md:space-y-6" action="#">
                                                 <div>
                                                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
                                                       <input type="name" required name="name" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name" ></input>
                                                 </div>
-                                                <div>
-                                                      <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Image</label>
-                                                      <input type="" required name="image" id="image" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="image" ></input>
-                                                </div>
+
                                                 <div>
                                                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
-                                                      <input type="email" required name="email" id="email" placeholder="Email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" ></input>
+                                                      <input type="email" required name="email" id="email" placeholder="yourname@example.com" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" ></input>
                                                 </div>
                                                 <div>
                                                       <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
@@ -32,7 +55,7 @@ const SignUp = () => {
 
                                                 <div className="flex items-start">
                                                       <div className="flex items-center h-5">
-                                                            <input id="terms" aria-describedby="terms" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required=""></input>
+                                                            <input id="terms" aria-describedby="terms" required type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" ></input>
                                                       </div>
                                                       <div className="ml-3 text-sm">
                                                             <label className="font-light text-gray-500 dark:text-gray-300">I accept the <a className="font-medium text-primary-600 hover:underline dark:text-primary-500" href="#">Terms and Conditions</a></label>

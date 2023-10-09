@@ -2,7 +2,7 @@
 
 const Footer = () => {
       return (
-            <div>
+            <div >
                   {/* <!-- ====== Footer Section Start --> */}
                   <footer className="relative z-10 bg-[#263b5c] pt-20 pb-10 lg:pt-[120px] lg:pb-20 overflow-hidden bottom-0 text-white ">
                         <div className="container mx-auto">
