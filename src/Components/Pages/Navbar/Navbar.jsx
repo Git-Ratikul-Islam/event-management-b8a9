@@ -1,9 +1,20 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import './Navbar.css';
+import { useContext } from "react";
+import { AuthContext } from "../../../Provider/AuthProvider";
 
 
 
 const Navbar = () => {
+
+      const { user, logOutUser } = useContext(AuthContext);
+      const handleLogOut = () => {
+            logOutUser()
+                  .then(() => {
+                        console.log('user logout');
+                  })
+                  .catch(error => console.error(error));
+      };
 
 
       const location = useLocation();
@@ -84,15 +95,23 @@ const Navbar = () => {
                                     </ul>
                               </div>
                               <div className="navbar-end ">
-                                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-4">
+                                    {user && <span>{user.email}</span>}
+
+                                    {user ? <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-4">
                                           <div className="w-10 rounded-full">
                                                 <img src="https://i.ibb.co/J7wT95S/logan-weaver-lgnwvr-XCkc8-s7-FA-unsplash.jpg" />
 
 
                                           </div>
 
-                                    </label>
-                                    <NavLink to="/login"> <button className="btn btn-sm bg-[#f15b43] border-none text-white">Log out</button></NavLink>
+                                    </label> : ""}
+                                    <div>
+                                          <NavLink to="/login">
+                                                {
+                                                      user ? <button onClick={handleLogOut} className="btn btn-sm bg-[#f15b43] border-none text-white">Log out</button> : <button className="btn btn-sm bg-[#65c9bb] border-none text-white">Log in</button>
+                                                }
+                                          </NavLink>
+                                    </div>
                               </div>
                         </div >
                   </div>

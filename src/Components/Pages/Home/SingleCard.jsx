@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const SingleCard = ({ cards }) => {
@@ -25,9 +26,10 @@ const SingleCard = ({ cards }) => {
                                           <h3 className="text-xl font-bold ml-4 mt-12 text-[#65c9bb]">{discount}.00</h3>
                                           <p className="ml-4 font-bold text-sm">Discount</p>
                                     </div>
-                                    <button className="btn relative lg:left-40 left-28 bg-[#f15b43] hover:border-[#f15b43] hover:text-[#f15b43] hover:bg-[#f15a4300] text-white lg:px-20 px-10 rounded-none top-5 ">
-                                          {text}
-                                    </button>
+                                    <Link to="/events">
+                                          <button className="btn tooltip relative lg:left-40 left-28 bg-[#f15b43] hover:border-[#f15b43] hover:text-[#f15b43] hover:bg-[#f15a4300] text-white lg:px-20 px-10 rounded-none top-5 " data-tip="Book now to see details">
+                                                {text}
+                                          </button></Link>
                               </div>
                         </div>
 

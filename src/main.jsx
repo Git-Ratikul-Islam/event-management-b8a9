@@ -16,6 +16,7 @@ import SignUp from './Components/Pages/Users/SignUp';
 import ErrorPage from './Components/Pages/ErrorPage/ErrorPage';
 import ErrorElement from './Components/Pages/ErrorPage/ErrorElement';
 import AuthProvider from './Provider/AuthProvider';
+import PrivateRoute from './Components/Routes/PrivateRoute';
 
 
 
@@ -33,15 +34,15 @@ const router = createBrowserRouter([
       },
       {
         path: '/events',
-        element: <Events></Events>
+        element: <PrivateRoute><Events></Events></PrivateRoute>
       },
       {
         path: '/service',
-        element: <Service></Service>
+        element: <PrivateRoute><Service></Service></PrivateRoute>
       },
       {
         path: '/contactUs',
-        element: <ContactUs></ContactUs>
+        element: <PrivateRoute><ContactUs></ContactUs></PrivateRoute>
       },
       {
         path: '/login',
