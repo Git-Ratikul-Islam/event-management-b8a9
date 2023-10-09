@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import Swal from 'sweetalert2';
-import { signInWithPopup } from "firebase/auth";
+
 
 
 const Login = () => {

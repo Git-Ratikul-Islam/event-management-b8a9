@@ -99,7 +99,7 @@ const Navbar = () => {
                                     </ul>
                               </div>
                               <div className="navbar-end ">
-                                    {user && <span>{user.email}</span>}
+                                    {user && <span className="text-white mr-2 font-bold">{user.email}</span>}
 
                                     {user ? <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-4">
                                           <div className="w-10 rounded-full">
