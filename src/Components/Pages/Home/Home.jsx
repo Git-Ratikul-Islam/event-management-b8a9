@@ -18,8 +18,9 @@ const Home = () => {
                                                 <div className="lg:mb-10 mb-4" >
                                                       <p className="text-[#65c9bb] font-semibold">Upcoming Events</p>
                                                 </div>
-                                                <h1 className="text-5xl font-bold">Box Office News!</h1>
-                                                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                                <h1 className="text-5xl font-bold">Health Living</h1>
+                                                <p className="py-6">
+                                                      Healthy living is a holistic approach to well-being, encompassing physical, mental, and emotional health. It involves maintaining a balanced diet, regular exercise, adequate sleep, and stress management. Hydration, mindfulness, and positive social connections also play crucial roles. Prioritizing these aspects can lead to a happier, longer, and more fulfilling life.</p>
                                                 <div className="flex gap-6">
                                                       <div>
                                                             <Link to="/events" className=""><button className="btn btn-primary mt-4 text-white rounded-none bg-[#f15b43] border-none hover:bg-[#7ed957] px-10">All Events</button></Link>
@@ -35,7 +36,7 @@ const Home = () => {
 
                         </div>
                   </div>
-                  <div className="bg-[#ffff] overflow-hidden">
+                  <div className="bg-[#ffff] overflow-hidden lg:mt-0 mt-10">
                         <div className="w-5/6  mx-auto">
                               <div className="hero lg:min-h-[70vh] min-h-[100vh]">
                                     <div className="hero-content flex-col lg:flex-row-reverse absolute">
@@ -47,8 +48,9 @@ const Home = () => {
                                                       <p className="text-[#65c9bb] font-semibold">Upcoming Events</p>
                                                 </div>
 
-                                                <h1 className="text-5xl font-bold">Box Office News!</h1>
-                                                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                                <h1 className="text-5xl font-bold">Relaxing Meditation!</h1>
+                                                <p className="py-6 ">
+                                                      Relaxing meditation is a practice that promotes inner calm and stress relief. By focusing attention on breath, sensations, or a soothing mantra, it helps clear the mind of clutter and anxiety. Regular sessions improve mental clarity, reduce tension, and enhance overall well-being, making it a valuable tool for relaxation and self-care.</p>
 
                                                 <div>
                                                       <Link to="/events" className=""><button className="btn btn-primary mt-4 text-white rounded-none bg-[#f15b43] border-none hover:bg-[#7ed957] px-10">All Events</button></Link>

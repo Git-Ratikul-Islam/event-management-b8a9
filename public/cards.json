@@ -1,56 +1,62 @@
 [
       {
-            "id": 1,
+            "id": "1",
             "name": "Mindfulness Meditation Retreat",
             "image": "https://i.ibb.co/VCCkj57/kike-vega-F2qh3yjz6-Jk-unsplash.jpg",
             "price": "$300",
             "discount": "$40",
             "short_description": "Embark on a transformative journey to inner peace and self-discovery amidst the serene beauty of a yoga retreat.",
+            "description": "Our Mindfulness Meditation Retreat invites you to embark on a profound inner journey towards tranquility and self-discovery. Nestled in the heart of nature's beauty, this retreat offers a serene haven where you can escape the chaos of everyday life. Through a carefully crafted blend of mindfulness meditation and yoga practices, you'll forge a deeper connection with your inner self. Our experienced instructors will gently guide you on a path of self-awareness, stress reduction, and holistic well-being. Each day, you'll awaken to the soothing sounds of nature and immerse yourself in practices that promote relaxation and self-reflection. Whether you're a novice or an experienced practitioner, our retreat is open to all who seek transformation. Join us to cultivate mindfulness, inner balance, and a renewed sense of purpose. Secure your spot now and set forth on a life-changing journey towards inner peace and self-discovery.",
             "text": "Book Now"
       },
       {
-            "id": 2,
+            "id": "2",
             "name": "Meditation Workshop",
             "image": "https://i.ibb.co/Fs06qqv/Meditation-Workshop1.jpg",
             "price": "$50",
             "discount": "$30",
             "short_description": "Join us for a profound meditation workshop where you'll learn the art of mindfulness and find tranquility in your daily life.",
+            "description": "Join our Meditation Workshop for a deep dive into the art of mindfulness, where you'll uncover the keys to tranquility in your daily life. Our immersive workshop is designed for individuals eager to explore the profound benefits of meditation. Led by experienced meditation guides, you'll engage in a series of guided meditation sessions aimed at promoting relaxation, reducing stress, and enhancing overall well-being. Throughout the workshop, you'll acquire various meditation techniques and practical tips to seamlessly integrate mindfulness into your daily routine. Whether you're new to meditation or eager to deepen your practice, our workshop is accessible to all levels of experience. Join us on this transformative journey of self-discovery and inner serenity. Reserve your spot now and embark on a path to a more mindful and centered life.",
             "text": "Book Now"
       },
       {
-            "id": 3,
+            "id": "3",
             "name": "Healthy Cooking Class",
             "image": "https://i.ibb.co/zQCDCB9/Healthy-Cooking-Class.jpg",
             "price": "$75",
             "discount": "$11",
             "short_description": "Uncover the culinary secrets behind crafting delicious and nutritious meals in our engaging and informative cooking classes.",
+            "description": "Uncover the culinary secrets behind crafting delicious and nutritious meals in our engaging Healthy Cooking Class. Led by experienced chefs, this class offers a hands-on journey into the art of cooking with fresh, wholesome ingredients. Gain valuable insights on creating balanced and flavorful dishes that promote health and well-being. During the class, you'll roll up your sleeves and get hands-on experience in the kitchen, learning essential cooking techniques while gaining a deeper understanding of the nutritional value of different ingredients. Whether you're a novice or an aspiring chef, our class is tailored to all skill levels. Treat yourself to a culinary adventure and reserve your spot now to explore the world of healthy and delicious cooking.",
             "text": "Book Now"
       },
       {
-            "id": 4,
+            "id": "4",
             "name": "Fitness Bootcamp",
             "image": "https://i.ibb.co/58TfZQq/Fitness-Bootcamp.jpg",
             "price": "$200",
             "discount": "$60",
             "short_description": "Transform your fitness journey with our intense fitness bootcamp, designed to sculpt your body and boost your endurance.",
+            "description": "Transform your fitness journey with our intense Fitness Bootcamp, a program designed to sculpt your body, boost your endurance, and elevate your fitness to new heights. Led by experienced fitness instructors, this bootcamp offers a dynamic and challenging workout experience that will push your limits and help you build strength, endurance, and confidence. Whether you're looking to shed pounds, gain muscle, or enhance your overall fitness, our bootcamp is tailored to meet your needs. We provide a supportive and motivating environment for participants of all fitness levels. Join us on this exhilarating fitness adventure and take the first step towards a healthier and more active lifestyle. Secure your spot today and commit to a fitter and stronger you.",
             "text": "Book Now"
       },
       {
-            "id": 5,
+            "id": "5",
             "name": "Spa and Relaxation Day",
             "image": "https://i.ibb.co/JjSdfSQ/spa1.jpg",
             "price": "$150",
             "discount": "$37",
             "short_description": "Rejuvenate your body and mind with a day of pure indulgence at our spa, where relaxation and self-care take center stage.",
+            "description": "Indulge in the ultimate relaxation experience with our Spa and Relaxation Day. Escape from the stresses of everyday life and pamper yourself with a day of pure indulgence at our luxurious spa. We offer a wide range of rejuvenating treatments, massages, and relaxation experiences that will leave you feeling refreshed, revitalized, and completely relaxed. Immerse yourself in our tranquil atmosphere as our skilled therapists pamper you from head to toe. Whether you seek a soothing massage, a revitalizing facial, or a peaceful soak in our serene spa environment, we have it all. Join us for a day of self-care and rejuvenation. Secure your spa day now and discover the ultimate relaxation and renewal.",
             "text": "Book Now"
       },
       {
-            "id": 6,
+            "id": "6",
             "name": "Nature Retreat",
             "image": "https://i.ibb.co/Y8Wt7y4/Nature-Retreat.jpg",
             "price": "$250",
             "discount": "$15",
             "short_description": "Reconnect with the natural world and revitalize your spirit during an unforgettable nature retreat that offers serenity and adventure.",
+            "description": "Reconnect with the natural world and revitalize your spirit during an unforgettable Nature Retreat. Nestled in a pristine natural setting, this retreat offers an opportunity to disconnect from the hustle and bustle of modern life and reconnect with the healing energy of the outdoors. Engage in guided nature walks, meditation amidst breathtaking landscapes, and activities that will deepen your connection with the natural world. Whether you're an outdoor enthusiast or simply seeking a break from the ordinary, our Nature Retreat welcomes all nature lovers. Join us for a rejuvenating journey into the heart of nature. Secure your spot now and rediscover your connection with the earth and yourself.",
             "text": "Book Now"
       }
 ]

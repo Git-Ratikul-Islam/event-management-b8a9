@@ -17,6 +17,7 @@ import ErrorPage from './Components/Pages/ErrorPage/ErrorPage';
 import ErrorElement from './Components/Pages/ErrorPage/ErrorElement';
 import AuthProvider from './Provider/AuthProvider';
 import PrivateRoute from './Components/Routes/PrivateRoute';
+import DetailsCard from './Components/Pages/Home/DetailsCard';
 
 
 
@@ -53,11 +54,18 @@ const router = createBrowserRouter([
         element: <SignUp></SignUp>
       },
 
+
     ]
   },
   {
     path: '/*',
     element: <ErrorPage></ErrorPage>
+  },
+  {
+    path: '/details/:id',
+    element: <DetailsCard></DetailsCard>,
+    loader: () => fetch('/cards.json')
+
   }
 ]);
 

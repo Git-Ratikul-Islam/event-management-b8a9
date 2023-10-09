@@ -34,11 +34,12 @@ const Navbar = () => {
                   return "login";
             } else if (location.pathname === "/*") {
                   return "login";
-            }
-            else {
+            } else {
                   return ""; // Default background class
 
             }
+
+
 
       };
 
@@ -51,6 +52,8 @@ const Navbar = () => {
             <li className="text-[16px] font-semibold"><NavLink to="/events" >Events</NavLink></li >
             <li className="text-[16px] font-semibold"><NavLink to="/service" >Services</NavLink></li >
             <li className="text-[16px] font-semibold"><NavLink to="/contactUs">Contact us</NavLink></li >
+
+
             {/* <li className="text-[16px] font-semibold"><NavLink to="/contactUs"></NavLink></li > */}
 
 
@@ -63,7 +66,7 @@ const Navbar = () => {
 
       </>;
 
-      const shouldShowContent = !["/events", "/service", "/contactUs", "/login", "/signUp", "/*"].includes(
+      const shouldShowContent = !["/events", "/service", "/contactUs", "/login", "/signUp", "/*", "/details/:id"].includes(
             location.pathname
       );
 
@@ -83,6 +86,7 @@ const Navbar = () => {
                                           </label>
                                           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2  bg-base-100 rounded-box w-52">
                                                 {links}
+
                                           </ul>
                                     </div>
 
