@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom"; c;
+import { useLoaderData } from "react-router-dom";
 import ServiceSingle from "./ServiceSingle";
 
 const Service = () => {

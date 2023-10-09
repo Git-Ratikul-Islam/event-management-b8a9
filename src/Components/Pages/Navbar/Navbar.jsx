@@ -32,14 +32,14 @@ const Navbar = () => {
                   return "login";
             } else if (location.pathname === "/signUp") {
                   return "login";
-            } else if (location.pathname === "/*") {
+            }
+            else if (location.pathname === "/*") {
                   return "login";
-            } else {
+            }
+            else {
                   return ""; // Default background class
 
             }
-
-
 
       };
 
@@ -52,7 +52,7 @@ const Navbar = () => {
             <li className="text-[16px] font-semibold"><NavLink to="/events" >Events</NavLink></li >
             <li className="text-[16px] font-semibold"><NavLink to="/service" >Services</NavLink></li >
             <li className="text-[16px] font-semibold"><NavLink to="/contactUs">Contact us</NavLink></li >
-
+            <li className="text-[16px] font-semibold "><NavLink to="/details/:id"></NavLink></li >
 
             {/* <li className="text-[16px] font-semibold"><NavLink to="/contactUs"></NavLink></li > */}
 
