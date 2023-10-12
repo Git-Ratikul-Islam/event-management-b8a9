@@ -28,7 +28,7 @@ const Home = () => {
                                                       </div>
 
                                                       <div>
-                                                            <Link to="/events"><a className="btn mt-4 bg-[#f15b43] text-white rounded-none border-none bg-none hover:bg-[#7ed957] px-10">Services</a> </Link>
+                                                            <Link to="/service"><a className="btn mt-4 bg-[#f15b43] text-white rounded-none border-none bg-none hover:bg-[#7ed957] px-10">Services</a> </Link>
                                                       </div>
                                                 </div>
                                           </div>

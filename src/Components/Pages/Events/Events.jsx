@@ -2,7 +2,14 @@ import { RiMentalHealthFill } from 'react-icons/ri';
 import { GiHealthNormal } from 'react-icons/gi';
 import { GrYoga } from 'react-icons/gr';
 const Events = () => {
-      return (
+      return (<>
+
+            <div className="absolute">
+                  <h1 className="text-7xl font-medium relative lg:bottom-44 lg:left-[180px] bottom-44 left-[115px] text-white
+            "><span className="text-[#f15b43]">E</span>vents</h1>
+
+            </div>
+
             <div className="container my-24 mx-auto md:px-6">
                   {/* <!-- Section: Design Block --> */}
                   <section className="mb-32 text-center md:text-left">
@@ -110,6 +117,7 @@ const Events = () => {
                   </section>
                   {/* <!-- Section: Design Block --> */}
             </div>
+      </>
       );
 };
 

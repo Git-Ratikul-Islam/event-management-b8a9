@@ -131,7 +131,7 @@ const Navbar = () => {
                                           Are you ready to take charge of your well-being and <br /> embark on
                                           a path to a healthier, happier you?{" "}
                                     </p>
-                                    <Link to="/login">
+                                    <Link to="/events">
                                           <button className="btn bg-[#65c9bb] border-[#65c9bb] text-white px-12 rounded-none hover:bg-[#65c9bc00] mt-10">
 
                                                 Check Events
